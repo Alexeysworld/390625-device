@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Алексей Климов](https://up.htmlacademy.ru/htmlcss/17/user/390625).
-* Наставник: [Александр Половников] (https://htmlacademy.ru/profile/alexpol).
+* Наставник: [Александр Половников](https://htmlacademy.ru/profile/alexpol).
 
 ---
 
