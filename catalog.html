@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,7 +13,7 @@
       <div class="container">
         <div class="header-upper">
           <div class="index-logo">
-            <a href="#"><img src="img/main-logo" height="240" width="350" alt="device-logo"></a>
+            <a href="#"><img src="img/logo.png" height="36" width="164" alt="device-logo"></a>
           </div>
           <div class="search-row">
             <input type="text" name="search-row" value="Поиск по сайту">
@@ -26,7 +27,7 @@
         </div>
         <div class="header-lower">
           <div class="catalog">
-            <a class="catalog-exile">Каталог товаров</a>
+            <a class="catalog-exile heading">Каталог товаров</a>
             <ul class="menu">
               <li>
                 <a href="#">Виртуальная реальность</a>
@@ -49,18 +50,18 @@
             </ul>
           </div>
           <div class="conditions">
-            <a href="#">Доставка</a>
-            <a href="#">Гарантия</a>
+            <a href="#" class="heading">Доставка</a>
+            <a href="#" class="heading">Гарантия</a>
           </div>
           <div class="contacts">
-            <a href="#">Контакты</a>
+            <a href="#" class="heading">Контакты</a>
           </div>
         </div>
       </div>
     </header>
     <main>
       <div class="container">
-        <h1>Моноподы для селфи</h1>
+        <h1 class="top-heading">Моноподы для селфи</h1>
         <nav class="breadcrumbs">
           <ul>
             <li>
@@ -75,10 +76,10 @@
           </ul>
         </nav>
         <div class="filter">
-          <b class="filter-name">Фильтр:</b>
+          <b class="heading">Фильтр:</b>
           <div class="price">
             <hr class="filter-line">
-            <b>Стоимость</b>
+            <b class="heading">Стоимость</b>
             <!-- Без понятия как сделать числовой фильтр  -->
             <hr class="price-filter">
             <p>от 0</p>
@@ -86,7 +87,7 @@
           </div>
           <div class="color">
             <hr class="filter-line">
-            <b>Цвет</b>
+            <b class="heading">Цвет</b>
             <label>
             <input type="checkbox" name="checkbox-1" value="black" checked>
             Черный
@@ -109,6 +110,7 @@
             </label>
           </div>
           <div class="bluetooth">
+            <b class="heading">Bluetooth</b>
             <label>
             <input type="radio" name="filter" value="Yes" checked>
             Есть
@@ -118,10 +120,10 @@
             Нет
             </label>
           </div>
-          <button type="submit">Показать</button>
+          <button type="submit" class="heading">Показать</button>
         </div>
         <div class="sorting">
-          <b>Сортировка:</b>
+          <b class="heading">Сортировка:</b>
           <a href="#">По цене</a>
           <a href="#">По типу</a>
           <a href="#">По популярности</a>
@@ -132,8 +134,8 @@
         </div>
         <div class="item-catalog">
           <article class="item-card">
-            <img src="img/index-logo.png" width="240" height="320" alt="селфи палка-1">
-            <a class="item-name">Любительская селфи-палка</a>
+            <img src="img/item-1.jpg" width="360" height="380" alt="селфи палка-1">
+            <a class="heading">Любительская селфи-палка</a>
             <div class="price">
               500 руб.
             </div>
@@ -143,8 +145,8 @@
             </div>
           </article>
           <article class="item-card">
-            <img src="img/index-logo.png" width="240" height="320" alt="селфи палка-2">
-            <a class="item-name">Профессиональная селфи-палка</a>
+            <img src="img/item-2.jpg" width="360" height="380" alt="селфи палка-2">
+            <a class="heading">Профессиональная селфи-палка</a>
             <div class="price">
               1 500 руб.
             </div>
@@ -154,8 +156,8 @@
             </div>
           </article>
           <article class="item-card">
-            <img src="img/index-logo.png" width="240" height="320" alt="селфи палка-3">
-            <a class="item-name">Непотопляемая селфи-палка</a>
+            <img src="img/item-3.jpg" width="360" height="380" alt="селфи палка-3">
+            <a class="heading">Непотопляемая селфи-палка</a>
             <div class="price">
               2 500 руб.
             </div>
@@ -165,8 +167,8 @@
             </div>
           </article>
           <article class="item-card">
-            <img src="img/index-logo.png" width="240" height="320" alt="селфи палка-1">
-            <a class="item-name">Селфи-палка "Следуй за мной"</a>
+            <img src="img/item-4.jpg" width="360" height="380" alt="селфи палка-1">
+            <a class="heading">Селфи-палка "Следуй за мной"</a>
             <div class="price">
               4 900 руб.
             </div>
@@ -188,15 +190,15 @@
     <footer class="main-footer">
       <div class="container">
         <div class="address">
-          <a href="#"><img src="img/footer-logo" height="240" width="350" alt="device-logo"></a>
+          <a href="#"><img src="img/logo-f.png" height="36" width="163" alt="device-logo"></a>
           <p>Г. Москва, ул. Строителей, 15</p>
           <hr class="footer-line">
         </div>
         <nav class="footer-menu">
           <ul>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Гарантия</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#" class="heading">Доставка</a></li>
+            <li><a href="#" class="heading">Гарантия</a></li>
+            <li><a href="#" class="heading">Контакты</a></li>
           </ul>
         </nav>
         <section class="social">
@@ -213,10 +215,11 @@
           <a href="tel:+74954959595">Тел.: 7 (495) 495-95-95</p>
         </div>
         <div class="html-exile">
-          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/" alt="htmlacademy"></a>
+          <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/htmlacademy.svg" alt="htmlacademy"></a>
         </div>
       </div>
     </footer>
   </form>
 </body>
+
 </html>

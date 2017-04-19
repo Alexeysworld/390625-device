@@ -1,0 +1,22 @@
+body {
+  font-family: "OpenSans", light;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000000;
+
+}
+.heading {
+  font-family: "Gilroy", ExtraBold;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000000;
+}
+.top-heading {
+  font-family: "Gilroy", ExtraBold;
+  font-size: 47px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000000;
+}
