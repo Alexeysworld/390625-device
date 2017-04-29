@@ -73,7 +73,6 @@ body {
 
 .header-user-block {
   display: flex;
-  background-color: orchid;
   width: 560px;
   height: 60px;
   align-items: center;
