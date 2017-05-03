@@ -150,6 +150,7 @@ body {
   margin-right: auto;
   margin-left: 58px;
 }
+
 .conditions a:nth-child(2) {
   margin-right: 153px;
   margin-left: 83px;
@@ -181,7 +182,7 @@ body {
 .slide-1,
 .slide-2,
 .slide-3 {
-    display: flex;
+  display: flex;
   width: 540px;
   align-items: flex-start;
 }
