@@ -1,5 +1,5 @@
-body {
-  font-family: "OpenSans", light;
+.body {
+  font-family: "OpenSans", sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 1.2;
@@ -9,8 +9,14 @@ body {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-ExtraBold.otf");
+  font-weight: 900;
+}
+
 .heading {
-  font-family: "Gilroy", ExtraBold;
+  font-family: "Gilroy";
   font-size: 18px;
   font-weight: normal;
   line-height: 1.2;
@@ -46,8 +52,6 @@ body {
 .header-lower {
   display: flex;
   padding-left: 10px;
-  margin-top: 14px;
-  justify-content: flex-end;
 }
 
 .menu {
@@ -172,6 +176,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 1160px;
+  margin-bottom: 107px;
 }
 
 .slider-image {
@@ -202,11 +207,9 @@ body {
 
 .item-preview b {
   width: 439px;
-  margin-top: 20px;
 }
 
 .item-preview a {
-  margin-top: 45px;
   width: 220px;
   text-align: center;
 }
@@ -215,7 +218,7 @@ body {
   margin-top: 25px;
   width: 440px;
   line-height: 1.7;
-  margin-bottom: 59px;
+  margin-bottom: 29px;
 }
 
 .features {
@@ -250,8 +253,8 @@ body {
 
 .category {
   width: 1160px;
-  margin-top: 37px;
-  margin-left: 10px;
+  padding-left: 10px;
+  margin-bottom: 81px;
 }
 
 .category ul {
@@ -262,7 +265,7 @@ body {
 
 .category li {
   width: 160px;
-  height: 240px;
+  padding-bottom: 195px;
   margin-right: 40px;
 }
 
@@ -272,27 +275,26 @@ body {
 
 .brands {
   display: flex;
-  margin-top: 163px;
-  margin-left: 10px;
+  padding-left: 10px;
+  margin-bottom: 90px;
 }
 
 .brands a {
   width: 260px;
-  height: 100px;
   margin-right: 40px;
-}
-
-.info {
-  display: flex;
-  margin-top: 91px;
-  margin-left: 10px;
 }
 
 .info b {
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 41px;
   vertical-align: top;
   margin-bottom: 23px;
+}
+
+.about-us {
+  float: left;
+  width: 540px;
+  margin-left: 10px;
 }
 
 .about-us p {
@@ -302,15 +304,14 @@ body {
 
 .about-us ul {
   margin: 0;
-  padding: 0;
   margin-top: 75px;
   margin-left: 20px;
-  padding-bottom: 40px;
-  width: 120px;
 }
 
 .contact {
-  margin-right: -10px;
+  float: right;
+  width: 540px;
+  margin-right: 10px;
   background-color: antiquewhite;
 }
 
@@ -334,39 +335,37 @@ body {
   background-color: black;
 }
 
-.contact {
-  margin-left: 40px;
-}
+.map {}
 
-.map {
-  height: 222px;
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .write-us-popup {
   display: none;
+  position: fixed;
 }
 
 .map-popup {
   display: none;
+  position: fixed;
 }
 
 .slider-services {
-  width: 1160px;
   display: flex;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-left: 10px;
+  padding-left: 10px;
+  margin-bottom: 210px;
 }
 
 .slider-services ul {
-  display: flex;
   padding: 0;
   margin: 0;
-  flex-direction: column;
   list-style: none;
   margin-right: 110px;
   width: 315px;
-  height: 240px;
   border-right: 7px solid black;
   padding-top: 80px;
 }
@@ -374,13 +373,13 @@ body {
 .slider-services li {
   margin-bottom: 23px;
   width: 160px;
-  height: 40px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
 .slider-services div {
-  padding-left: 8px;
   margin-top: 30px;
+  margin-left: 8px;
   width: 860px;
 }
 
@@ -389,7 +388,7 @@ body {
 }
 
 .slide-description p {
-  line-height: 2;
+  line-height: 1.9;
 }
 
 .slider-services div:nth-child(3) {
@@ -647,7 +646,7 @@ body {
 /*---------------подвал--------------*/
 
 .main-footer .container {
-  margin-top: 90px;
+  margin-top: 80px;
   display: flex;
   width: 1200px;
 }
@@ -655,8 +654,8 @@ body {
 .footer-column-1 {
   width: 260px;
   margin-right: 105px;
-  margin-left: 10px;
-  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .footer-column-2 {
